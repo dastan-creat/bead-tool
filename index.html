@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <title>拼豆图版工具</title>
+  <style>
+    :root {
+      --safe-top: env(safe-area-inset-top, 0px);
+      --safe-bottom: env(safe-area-inset-bottom, 0px);
+    }
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #fafafa; color: #1a1a1a;
+      min-height: 100dvh;
+      display: flex; flex-direction: column;
+      padding-top: var(--safe-top); padding-bottom: var(--safe-bottom);
+    }
+    header { padding: 16px; text-align: center; border-bottom: 1px solid #eee; }
+    h1 { font-size: 18px; font-weight: 600; }
+    main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 24px; text-align: center; color: #888; line-height: 1.8; }
+    main strong { color: #f1a33c; }
+  </style>
+</head>
+<body>
+  <header><h1>🧩 拼豆图版工具</h1></header>
+  <main>
+    <div>
+      <p>开发中，链路已打通 ✅</p>
+      <p>下一步接入 <strong>画布引擎</strong></p>
+    </div>
+  </main>
+</body>
+</html>
